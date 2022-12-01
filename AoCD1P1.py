@@ -13,6 +13,9 @@ for elf in elves:
         total += num
     cals.append(total)
 
-cals.sort(reverse=True)
+#Part 1 solution
+print(max(cals))
 
+#Part 2 solution
+cals.sort(reverse=True)
 print(sum(cals[:3]))
